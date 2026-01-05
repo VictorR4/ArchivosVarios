@@ -110,11 +110,11 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
         &lt;&lt;goto &quot;nivel1&quot;&gt;&gt;
 &lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="nivel1" tags="" position="400,300" size="100,100">Para pasar a la siguiente pantalla, lo que necesitarás será descubrir la contraseña que te lo permitirá. Para ello, lo único que tendrás que hacer es leer la carta, con una única condición: deberás leerla completa antes de sacar conclusiones.
 
-Pista: La contraseña es una única palabra formada por otras dos. La forma en que las palabras están escritas es mediante la nomenclatura camel case.
+Pista: La contraseña es una única palabra formada por otras dos. La forma en que las palabras están escritas es mediante la nomenclatura camel case (busca que es si es necesario).
 
-1ª palabra: Solo encontrarás un verbo en el tiempo &quot;Presente de Indicativo de la tercera persona del plural&quot;, búscalo y tendrás la primera parte de la palabra.
+- 1ª palabra: Solo encontrarás un verbo en el tiempo &quot;Presente de Indicativo de la tercera persona del plural&quot;, búscalo y tendrás la primera parte de la palabra.
 
-2ª palabra: Solo encontrarás un pronombre en toda la carta, búscalo atentamente y tendrá la segunda parte de la contraseña.
+- 2ª palabra: Solo encontrarás un pronombre relativo distinto de &#39;que&#39; en toda la carta, búscalo atentamente y tendrás la segunda parte de la contraseña.
 
 Introduce tu contraseña:
 &lt;&lt;set $clave = &quot;&quot;&gt;&gt;
@@ -129,7 +129,7 @@ Introduce tu contraseña:
     &lt;&lt;/if&gt;&gt;
 &lt;&lt;/button&gt;&gt;
 
-&lt;div id=&quot;mensaje-error&quot;&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="correcto1" tags="" position="600,300" size="100,100">!!ENHORABUENA¡¡
+&lt;div id=&quot;mensaje-error&quot;&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="correcto1" tags="" position="600,300" size="100,100">¡¡ENHORABUENA!!
 Has completado el nivel. Vamos a pasar ahora al nivel 2.
 
 &lt;&lt;button &quot;Continuar&quot;&gt;&gt;
@@ -149,8 +149,8 @@ Introduce la respuesta:
     &lt;&lt;/if&gt;&gt;
 &lt;&lt;/button&gt;&gt;
 
-&lt;div id=&quot;mensaje-error&quot;&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="correcto2" tags="" position="1000,300" size="100,100">!!ENHORABUENA¡¡
-Has completado el juego. Ahora tienes 2 palabras y 9 letras. Con ello deberás formar una frase de 4 palabras. La respuesta correcta solo te la puede confirmar la persona que tienes al lado.
+&lt;div id=&quot;mensaje-error&quot;&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="correcto2" tags="" position="1000,300" size="100,100">¡¡ENHORABUENA!!
+Has completado el juego. Ahora tienes 2 palabras y 9 letras. Con ello deberás formar una frase de 4 palabras. Con las 9 letras formarás dos palabras, un pronombre posesivo y un sustantivo. La respuesta correcta solo te la puede confirmar la persona que tienes al lado.
 
 &lt;&lt;button &quot;Cerrar historia&quot;&gt;&gt;
     &lt;&lt;script&gt;&gt;
